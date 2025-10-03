@@ -2,14 +2,14 @@
   "name": "data-server",
   "version": "1.0.0",
   "description": "File upload server with MySQL database",
-  "main": "uploadedFile.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node uploadedFile.js",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Zayan Muhammed",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^17.2.2",
     "express": "^4.18.2",
